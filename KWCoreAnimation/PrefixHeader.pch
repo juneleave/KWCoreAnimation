@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  KWCoreAnimation
+//
+//  Created by WEISON on 18/3/14.
+//  Copyright © 2018年 siso. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
+#endif /* PrefixHeader_pch */

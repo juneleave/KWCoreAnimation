@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C136AA3205924BA00E99172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AA2205924BA00E99172 /* main.m */; };
+		5C136AA6205924BA00E99172 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AA5205924BA00E99172 /* AppDelegate.m */; };
+		5C136AA9205924BA00E99172 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AA8205924BA00E99172 /* ViewController.m */; };
+		5C136AAC205924BA00E99172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C136AAA205924BA00E99172 /* Main.storyboard */; };
+		5C136AAE205924BA00E99172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C136AAD205924BA00E99172 /* Assets.xcassets */; };
+		5C136AB1205924BA00E99172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C136AAF205924BA00E99172 /* LaunchScreen.storyboard */; };
+		5C136ABC205924BB00E99172 /* KWCoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136ABB205924BB00E99172 /* KWCoreAnimationTests.m */; };
+		5C136AC7205924BB00E99172 /* KWCoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AC6205924BB00E99172 /* KWCoreAnimationUITests.m */; };
+		5C136AD7205A010900E99172 /* KWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AD6205A010900E99172 /* KWBaseViewController.m */; };
+		5C136ADA205A01A000E99172 /* CABaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AD9205A01A000E99172 /* CABaseAnimationVC.m */; };
+		5C136AE2205A029300E99172 /* KWSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136ADD205A029300E99172 /* KWSelectView.m */; };
+		5C136AE3205A029300E99172 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136ADF205A029300E99172 /* UIView+Category.m */; };
+		5C136AE4205A029300E99172 /* UIView+FrameChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AE1205A029300E99172 /* UIView+FrameChange.m */; };
+		5C136AE7205A114500E99172 /* CAKeyframeAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AE6205A114500E99172 /* CAKeyframeAnimationVC.m */; };
+		5C136AEA205A144900E99172 /* CAAnimationGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AE9205A144900E99172 /* CAAnimationGroupVC.m */; };
+		5C136AED205A15DF00E99172 /* CATransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C136AEC205A15DF00E99172 /* CATransitionVC.m */; };
+		5C70492020610A26009A3EFE /* 123.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5C70491F20610A26009A3EFE /* 123.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C136AB8205924BB00E99172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C136A96205924BA00E99172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C136A9D205924BA00E99172;
+			remoteInfo = KWCoreAnimation;
+		};
+		5C136AC3205924BB00E99172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C136A96205924BA00E99172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C136A9D205924BA00E99172;
+			remoteInfo = KWCoreAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C136A9E205924BA00E99172 /* KWCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C136AA2205924BA00E99172 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C136AA4205924BA00E99172 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C136AA5205924BA00E99172 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C136AA7205924BA00E99172 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C136AA8205924BA00E99172 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C136AAB205924BA00E99172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C136AAD205924BA00E99172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C136AB0205924BA00E99172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C136AB2205924BA00E99172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C136AB7205924BB00E99172 /* KWCoreAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWCoreAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C136ABB205924BB00E99172 /* KWCoreAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWCoreAnimationTests.m; sourceTree = "<group>"; };
+		5C136ABD205924BB00E99172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C136AC2205924BB00E99172 /* KWCoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWCoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C136AC6205924BB00E99172 /* KWCoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWCoreAnimationUITests.m; sourceTree = "<group>"; };
+		5C136AC8205924BB00E99172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C136AD42059253400E99172 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5C136AD5205A010900E99172 /* KWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWBaseViewController.h; sourceTree = "<group>"; };
+		5C136AD6205A010900E99172 /* KWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWBaseViewController.m; sourceTree = "<group>"; };
+		5C136AD8205A01A000E99172 /* CABaseAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABaseAnimationVC.h; sourceTree = "<group>"; };
+		5C136AD9205A01A000E99172 /* CABaseAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABaseAnimationVC.m; sourceTree = "<group>"; };
+		5C136ADC205A029300E99172 /* KWSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWSelectView.h; sourceTree = "<group>"; };
+		5C136ADD205A029300E99172 /* KWSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWSelectView.m; sourceTree = "<group>"; };
+		5C136ADE205A029300E99172 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		5C136ADF205A029300E99172 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		5C136AE0205A029300E99172 /* UIView+FrameChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameChange.h"; sourceTree = "<group>"; };
+		5C136AE1205A029300E99172 /* UIView+FrameChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameChange.m"; sourceTree = "<group>"; };
+		5C136AE5205A114500E99172 /* CAKeyframeAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationVC.h; sourceTree = "<group>"; };
+		5C136AE6205A114500E99172 /* CAKeyframeAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationVC.m; sourceTree = "<group>"; };
+		5C136AE8205A144900E99172 /* CAAnimationGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupVC.h; sourceTree = "<group>"; };
+		5C136AE9205A144900E99172 /* CAAnimationGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupVC.m; sourceTree = "<group>"; };
+		5C136AEB205A15DF00E99172 /* CATransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionVC.h; sourceTree = "<group>"; };
+		5C136AEC205A15DF00E99172 /* CATransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionVC.m; sourceTree = "<group>"; };
+		5C70491F20610A26009A3EFE /* 123.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 123.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C136A9B205924BA00E99172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C136AB4205924BB00E99172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C136ABF205924BB00E99172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C136A95205924BA00E99172 = {
+			isa = PBXGroup;
+			children = (
+				5C136AA0205924BA00E99172 /* KWCoreAnimation */,
+				5C136ABA205924BB00E99172 /* KWCoreAnimationTests */,
+				5C136AC5205924BB00E99172 /* KWCoreAnimationUITests */,
+				5C136A9F205924BA00E99172 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C136A9F205924BA00E99172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C136A9E205924BA00E99172 /* KWCoreAnimation.app */,
+				5C136AB7205924BB00E99172 /* KWCoreAnimationTests.xctest */,
+				5C136AC2205924BB00E99172 /* KWCoreAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C136AA0205924BA00E99172 /* KWCoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5C136AA4205924BA00E99172 /* AppDelegate.h */,
+				5C136AA5205924BA00E99172 /* AppDelegate.m */,
+				5C136AA7205924BA00E99172 /* ViewController.h */,
+				5C136AA8205924BA00E99172 /* ViewController.m */,
+				5C136AD5205A010900E99172 /* KWBaseViewController.h */,
+				5C136AD6205A010900E99172 /* KWBaseViewController.m */,
+				5C136AD8205A01A000E99172 /* CABaseAnimationVC.h */,
+				5C136AD9205A01A000E99172 /* CABaseAnimationVC.m */,
+				5C136AE5205A114500E99172 /* CAKeyframeAnimationVC.h */,
+				5C136AE6205A114500E99172 /* CAKeyframeAnimationVC.m */,
+				5C136AE8205A144900E99172 /* CAAnimationGroupVC.h */,
+				5C136AE9205A144900E99172 /* CAAnimationGroupVC.m */,
+				5C136AEB205A15DF00E99172 /* CATransitionVC.h */,
+				5C136AEC205A15DF00E99172 /* CATransitionVC.m */,
+				5C70491F20610A26009A3EFE /* 123.svg */,
+				5C136ADB205A029300E99172 /* 导航栏右侧弹出视图 */,
+				5C136AD42059253400E99172 /* PrefixHeader.pch */,
+				5C136AAA205924BA00E99172 /* Main.storyboard */,
+				5C136AAD205924BA00E99172 /* Assets.xcassets */,
+				5C136AAF205924BA00E99172 /* LaunchScreen.storyboard */,
+				5C136AB2205924BA00E99172 /* Info.plist */,
+				5C136AA1205924BA00E99172 /* Supporting Files */,
+			);
+			path = KWCoreAnimation;
+			sourceTree = "<group>";
+		};
+		5C136AA1205924BA00E99172 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C136AA2205924BA00E99172 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C136ABA205924BB00E99172 /* KWCoreAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C136ABB205924BB00E99172 /* KWCoreAnimationTests.m */,
+				5C136ABD205924BB00E99172 /* Info.plist */,
+			);
+			path = KWCoreAnimationTests;
+			sourceTree = "<group>";
+		};
+		5C136AC5205924BB00E99172 /* KWCoreAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C136AC6205924BB00E99172 /* KWCoreAnimationUITests.m */,
+				5C136AC8205924BB00E99172 /* Info.plist */,
+			);
+			path = KWCoreAnimationUITests;
+			sourceTree = "<group>";
+		};
+		5C136ADB205A029300E99172 /* 导航栏右侧弹出视图 */ = {
+			isa = PBXGroup;
+			children = (
+				5C136ADC205A029300E99172 /* KWSelectView.h */,
+				5C136ADD205A029300E99172 /* KWSelectView.m */,
+				5C136ADE205A029300E99172 /* UIView+Category.h */,
+				5C136ADF205A029300E99172 /* UIView+Category.m */,
+				5C136AE0205A029300E99172 /* UIView+FrameChange.h */,
+				5C136AE1205A029300E99172 /* UIView+FrameChange.m */,
+			);
+			path = "导航栏右侧弹出视图";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C136A9D205924BA00E99172 /* KWCoreAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C136ACB205924BB00E99172 /* Build configuration list for PBXNativeTarget "KWCoreAnimation" */;
+			buildPhases = (
+				5C136A9A205924BA00E99172 /* Sources */,
+				5C136A9B205924BA00E99172 /* Frameworks */,
+				5C136A9C205924BA00E99172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWCoreAnimation;
+			productName = KWCoreAnimation;
+			productReference = 5C136A9E205924BA00E99172 /* KWCoreAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C136AB6205924BB00E99172 /* KWCoreAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C136ACE205924BB00E99172 /* Build configuration list for PBXNativeTarget "KWCoreAnimationTests" */;
+			buildPhases = (
+				5C136AB3205924BB00E99172 /* Sources */,
+				5C136AB4205924BB00E99172 /* Frameworks */,
+				5C136AB5205924BB00E99172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C136AB9205924BB00E99172 /* PBXTargetDependency */,
+			);
+			name = KWCoreAnimationTests;
+			productName = KWCoreAnimationTests;
+			productReference = 5C136AB7205924BB00E99172 /* KWCoreAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C136AC1205924BB00E99172 /* KWCoreAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C136AD1205924BB00E99172 /* Build configuration list for PBXNativeTarget "KWCoreAnimationUITests" */;
+			buildPhases = (
+				5C136ABE205924BB00E99172 /* Sources */,
+				5C136ABF205924BB00E99172 /* Frameworks */,
+				5C136AC0205924BB00E99172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C136AC4205924BB00E99172 /* PBXTargetDependency */,
+			);
+			name = KWCoreAnimationUITests;
+			productName = KWCoreAnimationUITests;
+			productReference = 5C136AC2205924BB00E99172 /* KWCoreAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C136A96205924BA00E99172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = siso;
+				TargetAttributes = {
+					5C136A9D205924BA00E99172 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DKGWL9UE;
+						ProvisioningStyle = Automatic;
+					};
+					5C136AB6205924BB00E99172 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DKGWL9UE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C136A9D205924BA00E99172;
+					};
+					5C136AC1205924BB00E99172 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DKGWL9UE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C136A9D205924BA00E99172;
+					};
+				};
+			};
+			buildConfigurationList = 5C136A99205924BA00E99172 /* Build configuration list for PBXProject "KWCoreAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C136A95205924BA00E99172;
+			productRefGroup = 5C136A9F205924BA00E99172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C136A9D205924BA00E99172 /* KWCoreAnimation */,
+				5C136AB6205924BB00E99172 /* KWCoreAnimationTests */,
+				5C136AC1205924BB00E99172 /* KWCoreAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C136A9C205924BA00E99172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C136AB1205924BA00E99172 /* LaunchScreen.storyboard in Resources */,
+				5C136AAE205924BA00E99172 /* Assets.xcassets in Resources */,
+				5C136AAC205924BA00E99172 /* Main.storyboard in Resources */,
+				5C70492020610A26009A3EFE /* 123.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C136AB5205924BB00E99172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C136AC0205924BB00E99172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C136A9A205924BA00E99172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C136AE2205A029300E99172 /* KWSelectView.m in Sources */,
+				5C136AED205A15DF00E99172 /* CATransitionVC.m in Sources */,
+				5C136AEA205A144900E99172 /* CAAnimationGroupVC.m in Sources */,
+				5C136AE3205A029300E99172 /* UIView+Category.m in Sources */,
+				5C136AA9205924BA00E99172 /* ViewController.m in Sources */,
+				5C136AD7205A010900E99172 /* KWBaseViewController.m in Sources */,
+				5C136AE4205A029300E99172 /* UIView+FrameChange.m in Sources */,
+				5C136ADA205A01A000E99172 /* CABaseAnimationVC.m in Sources */,
+				5C136AE7205A114500E99172 /* CAKeyframeAnimationVC.m in Sources */,
+				5C136AA6205924BA00E99172 /* AppDelegate.m in Sources */,
+				5C136AA3205924BA00E99172 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C136AB3205924BB00E99172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C136ABC205924BB00E99172 /* KWCoreAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C136ABE205924BB00E99172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C136AC7205924BB00E99172 /* KWCoreAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C136AB9205924BB00E99172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C136A9D205924BA00E99172 /* KWCoreAnimation */;
+			targetProxy = 5C136AB8205924BB00E99172 /* PBXContainerItemProxy */;
+		};
+		5C136AC4205924BB00E99172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C136A9D205924BA00E99172 /* KWCoreAnimation */;
+			targetProxy = 5C136AC3205924BB00E99172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C136AAA205924BA00E99172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C136AAB205924BA00E99172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C136AAF205924BA00E99172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C136AB0205924BA00E99172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C136AC9205924BB00E99172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C136ACA205924BB00E99172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C136ACC205924BB00E99172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KWCoreAnimation/PrefixHeader.pch";
+				INFOPLIST_FILE = KWCoreAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sisoinfo.KWCoreAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C136ACD205924BB00E99172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KWCoreAnimation/PrefixHeader.pch";
+				INFOPLIST_FILE = KWCoreAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sisoinfo.KWCoreAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C136ACF205924BB00E99172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCoreAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sisoinfo.KWCoreAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWCoreAnimation.app/KWCoreAnimation";
+			};
+			name = Debug;
+		};
+		5C136AD0205924BB00E99172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCoreAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sisoinfo.KWCoreAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWCoreAnimation.app/KWCoreAnimation";
+			};
+			name = Release;
+		};
+		5C136AD2205924BB00E99172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCoreAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sisoinfo.KWCoreAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KWCoreAnimation;
+			};
+			name = Debug;
+		};
+		5C136AD3205924BB00E99172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCoreAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sisoinfo.KWCoreAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KWCoreAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C136A99205924BA00E99172 /* Build configuration list for PBXProject "KWCoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C136AC9205924BB00E99172 /* Debug */,
+				5C136ACA205924BB00E99172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C136ACB205924BB00E99172 /* Build configuration list for PBXNativeTarget "KWCoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C136ACC205924BB00E99172 /* Debug */,
+				5C136ACD205924BB00E99172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C136ACE205924BB00E99172 /* Build configuration list for PBXNativeTarget "KWCoreAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C136ACF205924BB00E99172 /* Debug */,
+				5C136AD0205924BB00E99172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C136AD1205924BB00E99172 /* Build configuration list for PBXNativeTarget "KWCoreAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C136AD2205924BB00E99172 /* Debug */,
+				5C136AD3205924BB00E99172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C136A96205924BA00E99172 /* Project object */;
+}
